@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.8",
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/community": "^0.3.51",
+    "@langchain/google-genai": "^0.2.16",
+    "chromadb": "^3.0.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "langchain": "^0.3.30",
+    "multer": "^2.0.2",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "pdf-text-extract": "^1.5.0",
+    "pdfjs-dist": "^5.4.54"
+  }
+}
