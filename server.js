@@ -28,7 +28,7 @@ const model = googleGenerativeAI.getGenerativeModel({ model: "gemini-2.5-flash" 
 // Embeddings
 const embeddings = new GoogleGenerativeAIEmbeddings({
   apiKey: process.env.GEMINI_API_KEY,
-  model: "text-embedding-004",
+  model: "gemini-embedding-001",
 });
 
 // Chroma Cloud Client
