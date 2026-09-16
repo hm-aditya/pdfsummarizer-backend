@@ -23,7 +23,7 @@ app.use(express.json());
 
 // Gemini model
 const googleGenerativeAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = googleGenerativeAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+const model = googleGenerativeAI.getGenerativeModel({ model: "gemini-3.8-flash" });
 
 // Embeddings
 const embeddings = new GoogleGenerativeAIEmbeddings({
